@@ -36,24 +36,26 @@
                   <v-card-text class="mt-5">
                     <h2
                       align="center"
-                      class="font-weight-light"
+                      class="font-weight-light mt-2"
                       style="color: #585858"
                     >
-                      説明会(Zoom)の日程: {{ zoom_info }}
+                      勧誘会の日程: <div v-html="face_to_face" class="mt-3"></div>
                     </h2>
+                    <v-divider class="mt-2"></v-divider>
                     <h2
                       align="center"
-                      class="font-weight-light mt-3"
+                      class="font-weight-light mt-5"
                       style="color: #585858"
                     >
-                      勧誘会の日程: {{ face_to_face }}
+                      説明会(Zoom)の日程: <div v-html="zoom_info" class="mt-3"></div>
                     </h2>
+                    <v-divider class="mt-2"></v-divider>
                     <h2
                       align="center"
-                      class="font-weight-light mt-3"
+                      class="font-weight-light mt-5"
                       style="color: #585858"
                     >
-                      説明会 Zoomリンク: {{ zoom_url }}
+                      説明会 Zoomリンク: <div v-html="zoom_url" class="mt-3"></div>
                     </h2>
                   </v-card-text>
                 </v-card>
@@ -71,7 +73,7 @@
                       class="font-weight-light mt-3"
                       style="color: #585858"
                     >
-                      {{ new_info }}
+                      <div v-html="new_info"></div>
                     </h2>
                   </v-card-text>
                 </v-card>
