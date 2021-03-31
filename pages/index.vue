@@ -13,7 +13,7 @@
               <v-container>
                 <a href="http://den3.net">
                   <v-img
-                    src="http://den3.net/wp-content/themes/den3HP/set/image/logo.png"
+                    src="https://i.imgur.com/zd2U1cJ.png"
                   ></v-img>
                 </a>
                 <h2
