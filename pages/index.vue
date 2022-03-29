@@ -84,7 +84,7 @@
                       class="font-weight-light"
                       style="color: #585858"
                     >
-                      活動日: 毎週水曜日 21:00 ~
+                      活動日: 毎週金曜日 21:00 ~
                     </h2>
                     <h2
                       align="center"
@@ -92,6 +92,17 @@
                       style="color: #585858"
                     >
                       (ただし, サークルの活動制限によって変わります.)
+                    </h2>
+                  </v-card-text>
+                </v-card>
+                <v-card>
+                  <v-card-text class="mt-5">
+                    <h2
+                      align="center"
+                      class="font-weight-light"
+                      style="color: #585858"
+                    >
+                      活動場所: 電子計算機研究会 Discordサーバー
                     </h2>
                   </v-card-text>
                 </v-card>
