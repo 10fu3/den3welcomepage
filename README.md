@@ -1,5 +1,8 @@
 # den3page
 
+ページイメージ
+![](https://media.discordapp.net/attachments/965280577936838746/965284835906162709/old-page.PNG)
+
 ## Build Setup
 
 ```bash
